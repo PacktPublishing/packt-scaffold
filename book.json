@@ -1,0 +1,18 @@
+{
+  "title": "Example Content",
+  "author": "Packt <courses@packtpub.com>",
+  "description": "This is where your product description or tagline would go",
+  "isbn": "1234567890",
+  "gitbook": ">=3.0.3",
+  "root": "./content",
+  "structure": {
+    "readme": "credits.md",
+    "summary": "toc.md"
+  },
+  "plugins": ["local-video", "-sharing", "livereload", "highlight", "search", "lunr", "fontsettings", "packt", "theme-packt", "theme-default"],
+  "pluginsConfig": {
+    "mixpanel": {
+      "token": "85c6c341ff619c4b9eb63b8e6e2de4bf"
+    }
+  }
+}
